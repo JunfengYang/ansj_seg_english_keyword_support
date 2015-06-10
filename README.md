@@ -4,6 +4,10 @@ English phase dictionary form Wikitionary to support english keyword calculation
 
 It's not a very smart implementation. But it's easy to use.
 
+So, to get the english phase, we download the Wikitionary data from: http://dumps.wikimedia.org/enwiktionary/latest/
+
+Then use the WIKIDictXMLParse.py to get the phase, filterDic.py to sort it.
+
 To make the new dictionary work:
 
 In https://github.com/NLPchina/ansj_seg/blob/master/src/main/java/org/ansj/app/keyword/KeyWordComputer.java
